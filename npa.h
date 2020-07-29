@@ -8,7 +8,6 @@
 
 namespace npa {
 	
-
    	const std::map<std::string,std::string> alphabet{
         	{"a","Alpha"},{"b","Bravo"},{"c","Charlie"},{"d","Delta"},{"e","Echo"},{"f","Foxtrot"},
         	{"g","Golf"},{"h","Hotel"},{"i","India"},{"j","Juliet"},{"k","Kilo"},{"l","Lima"},
@@ -18,13 +17,11 @@ namespace npa {
         	{"6","Six"},{"7","Seven"},{"8","Eight"},{"9","Nine"},{".","Stop"},{"-","Dash"},{" ","(Space)"}
     	};
 
-
 	std::string Tolower( std::string s) {    
 		std::transform(s.begin(), s.end(), s.begin(), [](unsigned char c) -> unsigned char { return std::tolower(c); });
 		return s;
 	}
 	
-
 	std::string text2npa( const std::string& s ) {
 		std::string temp= Tolower(s);
         	std::string npa="";
@@ -39,7 +36,6 @@ namespace npa {
         	}
 		return npa;
 	}
-
 }
 
 
