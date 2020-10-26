@@ -1,5 +1,5 @@
 # NATO_Phonetic_Alphabet_Translator
-A basic library that converts text to NATO phonetic code 
+It converts text to NATO phonetic code 
 
 
 ```cpp
