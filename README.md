@@ -1,5 +1,5 @@
 # NATO_Phonetic_Alphabet_Translator
-It converts text to NATO phonetic code 
+It converts texts to NATO phonetic code 
 
 
 ```cpp
