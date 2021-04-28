@@ -1,5 +1,6 @@
 # NATO_Phonetic_Alphabet_Translator
 It converts texts to NATO phonetic code 
+(More information : https://www.nato.int/cps/en/natohq/news_150391.htm )
 
 
 ```cpp
