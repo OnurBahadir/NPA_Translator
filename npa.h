@@ -17,7 +17,8 @@ namespace npa {
         	{"6","Six"},{"7","Seven"},{"8","Eight"},{"9","Nine"},{".","Stop"},{"-","Dash"},{" ","(Space)"}
     	};
 
-	std::string Tolower( std::string s) {    
+	std::string Tolower(const std::string &st) {
+		std::string s(st);
 		std::transform(s.begin(), s.end(), s.begin(), [](unsigned char c) -> unsigned char { return std::tolower(c); });
 		return s;
 	}
