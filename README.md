@@ -5,8 +5,8 @@ It converts texts to NATO phonetic code
 
 ```cpp
 
-  std::cout << npa::text2npa("Hello NEW world.") ;   
+  std::cout << npa::text2npa("Hello world.") ;   // Hotel Echo Lima Lima Oscar [Space] Whiskey Oscar Romeo Lima Delta Stop
   
-  // Hotel Echo Lima Lima Oscar (Space) November Echo Whiskey (Space) Whiskey Oscar Romeo Lima Delta Stop
- 
+  const auto npa_code="Hotel Echo Lima Lima Oscar [Space] Whiskey Oscar Romeo Lima Delta"
+  std::cout << npa::npa2text(npa_code); //hello world
 ```
